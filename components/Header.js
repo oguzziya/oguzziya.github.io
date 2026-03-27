@@ -66,10 +66,18 @@ export default function Header() {
       <HeaderDiv>
         <TypewriterHeader>hi. it is oğuz.</TypewriterHeader>
         <p>
-          I am passionate about <b>computational science</b>, <b>scientific computing</b>, <b>numerical methods</b>, and <b>high performance computing</b> generally in computational fluid dynamics (CFD) and finite element method (FEM) contexts. I develop mainly in C++.
+          I work in
         </p>
+        <ul>
+          <li><p>computational science</p></li>
+          <li><p>scientific computing</p></li>
+          <li><p>multi-physics simulations</p></li>
+          <li><p>finite element method (FEM)</p></li>
+          <li><p>computational fluid dynamics (CFD)</p></li>
+          <li><p>high performance computing (HPC)</p></li>
+        </ul>
         <p>
-          I got my Master's degree in <b>Computational Science and Engineering (CSE)</b> from Technical University Munich. My Bachelor's degree was from Middle East Technical Univeristy (ODTÜ) in Mechanical Engineering.
+          I got my Master's degree in <em>Computational Science and Engineering (CSE)</em> from Technical University Munich. My Bachelor's degree was from Middle East Technical Univeristy (ODTÜ) in Mechanical Engineering.
         </p>
         <p>
           Feel free to connect if you want to talk about scientific computing, simulations, deep learning, high performance computing, and alike.

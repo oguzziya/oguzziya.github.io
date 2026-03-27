@@ -3,7 +3,7 @@ import '@/styles/globals.css'
 import styled from 'styled-components';
 
 const FullPageDiv = styled.div`
-  max-width: 500px;
+  max-width: 800px;
   margin: auto;
   background: white;
 `
