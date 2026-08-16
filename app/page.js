@@ -73,12 +73,12 @@ export default function Home() {
         <Detail>
             <p>For my thesis, I've developed particle formation and combustion models to simulate nanoparticle production in OpenFOAM. Particle formation is modeled using General Dynamics Equation, while the for the combustion we've used Flamelet Generated Manifold. I extended the classical FGM model to account for multiple fuel tables during the simulation.</p>
 
-            <p>I contributed to open-source multi-physics coupling library<Link href="https://precice.org/" target="_blank"><b>preCICE</b></Link> where I developed features such as conservative-consistent (scaled consistent) data mapping on interfaces, tracking the interface integral values, multi-coupling of arbitrary number of physics solvers, improving the performance of RBF and nearest projection data mappings.</p>
+            <p>I contributed to open-source multi-physics coupling library<Link href="https://precice.org/" target="_blank">preCICE</Link> where I developed features such as conservative-consistent (scaled consistent) data mapping on interfaces, tracking the interface integral values, multi-coupling of arbitrary number of physics solvers, improving the performance of RBF and nearest projection data mappings.</p>
 
-            <p>Also, I worked on fully differentiable solver<Link href="https://tum-pbs.github.io/PhiFlow/" target="_blank"><b>PhiFlow</b></Link> which is used for Physics-Informed Neural Networks (PINNs).
+            <p>Also, I worked on fully differentiable solver<Link href="https://tum-pbs.github.io/PhiFlow/" target="_blank">PhiFlow</Link> which is used for Physics-Informed Neural Networks (PINNs).
             There, I analyzed memory transfer patterns between CPU and GPU in higher level, also experimented with Numba for Just-in-Time compilation and JAX backend.</p>
         </Detail>
-        <h2>Bachelors's in Mechanical Engineering at METU</h2>
+        <h2>Bachelor's in Mechanical Engineering at METU</h2>
         <Detail>
             <p>During my undergraduate studies, I've mainly focused on fluid mechanics, gas dynamics, computational fluid dynamics, finite element analysis, and mesh generation.
             </p>
