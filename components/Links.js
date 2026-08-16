@@ -15,6 +15,8 @@ const LinksDiv = styled.div`
 `
 const LinkIcon = styled.img`
   padding-top: 0.5rem;
+  padding-left: 0.5rem;
+  padding-right: 0.5rem;
   width: 24px;
   height: auto;
 `

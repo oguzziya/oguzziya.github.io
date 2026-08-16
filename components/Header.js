@@ -1,28 +1,16 @@
 import styled from "styled-components"
+import Link from "@/components/Link"
 
 const HeaderMainDiv = styled.div`
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   margin-top: calc(2*var(--default-margin));
-`
-
-const TypewriterHeader = styled.div`
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-
-  font-size: calc(2 * var(--text-size));
-  text-align: left;
-  font-family: var(--font-monospace);
-  font-weight: 400;
-  margin-top: calc(1*var(--default-margin));
-  margin-bottom: calc(1*var(--default-margin));
+  margin-bottom: calc(2*var(--default-margin));
 `
 
 const HeaderDiv = styled.div`
   text-align: left;
 
-  margin-left: var(--default-margin);
   margin-right: var(--default-margin);
 
   @keyframes typing {
@@ -35,9 +23,16 @@ const HeaderDiv = styled.div`
     50% { border-color: orange; }
   }
 
+  h1 {
+    font-size: calc(2 * var(--text-size));
+    text-align: left;
+    font-family: var(--font-monospace);
+    font-weight: 400;
+  }
+
   p {
     font-family: var(--font-sans-serif);
-    font-size: var(--text-size);
+    font-size: calc(1.2 * var(--text-size));
     font-weight: 200;
     text-align: left;
     line-height: 1.5em;
@@ -45,7 +40,7 @@ const HeaderDiv = styled.div`
 `
 
 const PersonalPicDiv = styled.div`
-  width: 100%;
+  width: 60%;
   display: flex;
   align-items: center;
   flex-direction: row;
@@ -64,23 +59,9 @@ export default function Header() {
         <img src="personal_photo.jpeg"/>
       </PersonalPicDiv>
       <HeaderDiv>
-        <TypewriterHeader>hi. it is oğuz.</TypewriterHeader>
+        <h1>hi. it is oğuz.</h1>
         <p>
-          I work in
-        </p>
-        <ul>
-          <li><p>computational science</p></li>
-          <li><p>scientific computing</p></li>
-          <li><p>multi-physics simulations</p></li>
-          <li><p>finite element method (FEM)</p></li>
-          <li><p>computational fluid dynamics (CFD)</p></li>
-          <li><p>high performance computing (HPC)</p></li>
-        </ul>
-        <p>
-          I got my Master's degree in <em>Computational Science and Engineering (CSE)</em> from Technical University Munich. My Bachelor's degree was from Middle East Technical Univeristy (ODTÜ) in Mechanical Engineering.
-        </p>
-        <p>
-          Feel free to connect if you want to talk about scientific computing, simulations, deep learning, high performance computing, and alike.
+          I work in scientific computing, HPC, computer architecture, physics simulations, deep learning, and AI. Feel free to connect if you want to talk about these topics.
         </p>
       </HeaderDiv>
     </HeaderMainDiv>
