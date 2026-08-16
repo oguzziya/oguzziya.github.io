@@ -11,10 +11,10 @@ const DetailInfo = styled.div`
   border-radius: 20px;
 `
 
-export default function Details({header, information}) {
+export default function Details({children}) {
   return (
     <DetailInfo>
-      {information}
+      {children}
     </DetailInfo>
   )
 }
