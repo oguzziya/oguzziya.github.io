@@ -39,7 +39,7 @@ const DetailsDiv = styled.div`
   h2 {
     font-size: calc(1.2 * var(--text-size));
     font-family: var(--font-monospace);
-    font-weight: 200;
+    font-weight: 400;
     font-style: normal;
   }
 `

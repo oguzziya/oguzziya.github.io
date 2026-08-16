@@ -14,6 +14,7 @@ export default function RootLayout({
 {
   return (
     <html lang="en">
+      <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Ubuntu:regular,bold&subset=Latin"></link>
       <body>
         <FullPageDiv>
           {children}
