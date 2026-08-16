@@ -6,22 +6,14 @@ const HeaderMainDiv = styled.div`
   flex-direction: row;
   margin-top: calc(2*var(--default-margin));
   margin-bottom: calc(2*var(--default-margin));
+  margin-left: var(--default-margin);
+  margin-right: var(--default-margin);
+
+
 `
 
 const HeaderDiv = styled.div`
   text-align: left;
-
-  margin-right: var(--default-margin);
-
-  @keyframes typing {
-    from { width: 0 }
-    to { width: 100% }
-  }
-
-  @keyframes blink-caret {
-    from, to { border-color: transparent }
-    50% { border-color: orange; }
-  }
 
   h1 {
     font-size: calc(2 * var(--text-size));
@@ -37,10 +29,11 @@ const HeaderDiv = styled.div`
     text-align: left;
     line-height: 1.5em;
   }
+
+    padding-left: var(--default-margin);
 `
 
 const PersonalPicDiv = styled.div`
-  width: 60%;
   display: flex;
   align-items: center;
   flex-direction: row;
