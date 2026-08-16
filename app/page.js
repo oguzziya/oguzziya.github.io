@@ -52,7 +52,7 @@ export default function Home() {
       <Header />
     </HeaderRegionDiv>
       <DetailsDiv>
-        <h1>things that I work on</h1>
+        <h1>things I work on</h1>
         <h2>Performance Analysis and Modeling Engineer at imec</h2>
         <Detail>
           <p>Currently, I am working as an R&D engineer at <Link href="https://www.imec-int.com/en" target="_blank">imec</Link>, <Link href="https://www.imec-int.com/en/expertise/compute-system-architecture" target="_blank">Compute System Architecture (CSA)</Link>. department</p>
