@@ -9,7 +9,9 @@ const HeaderMainDiv = styled.div`
   margin-left: var(--default-margin);
   margin-right: var(--default-margin);
 
-
+  @media (max-width: 720px) {
+    flex-direction: column;
+  }
 `
 
 const HeaderDiv = styled.div`
@@ -30,7 +32,9 @@ const HeaderDiv = styled.div`
     line-height: 1.5em;
   }
 
+  @media (min-width: 720px) {
     padding-left: var(--default-margin);
+  }
 `
 
 const PersonalPicDiv = styled.div`
