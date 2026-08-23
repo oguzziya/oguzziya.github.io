@@ -55,14 +55,14 @@ export default function Home() {
         <h1>things I work on</h1>
         <h2>Performance Analysis and Modeling Engineer at imec</h2>
         <Detail>
-          <p>Currently, I am working as an R&D engineer at <Link href="https://www.imec-int.com/en" target="_blank">imec</Link>, <Link href="https://www.imec-int.com/en/expertise/compute-system-architecture" target="_blank">Compute System Architecture (CSA)</Link>. department</p>
+          <p>Currently, I am working as an R&D engineer at <Link href="https://www.imec-int.com/en" target="_blank">imec</Link>, <Link href="https://www.imec-int.com/en/expertise/compute-system-architecture" target="_blank">Compute System Architecture (CSA)</Link> department.</p>
           <p>
-          My work focuses on workload characterization of HPC and AI workloads, performance modeling of next generation architectures, and performance analysis of workloads on scale-up and scale-out systems.
+          My work focuses on workload characterization of HPC and AI applications, performance modeling and analysis of next generation architectures, scale-up and scale-out systems.
           </p>
         </Detail>
-        <h2>Finite Element Framework Developer at Siemens</h2>
+        <h2>C++ Developer at Siemens</h2>
         <Detail>
-          <p>I worked as a C++ developer in Siemens DISW, developing and improving the finite element framework of Simcenter StarCCM+. The finite element framework serves as a computational backend to the solid stress and electromagnetism physics. Here is <Link href="https://blogs.sw.siemens.com/simcenter/fsi-heart-valve-cfd" target="_blank">a cool multi-physics simulation video of a heart valve</Link>, which is carried out using the finite element framework of StarCCM+.</p>
+          <p>For almost 5 years, I worked at Siemens DISW, developing and improving the finite element framework of Simcenter StarCCM+. The finite element framework serves as a computational backend to the solid stress and electromagnetism physics. Here is <Link href="https://blogs.sw.siemens.com/simcenter/fsi-heart-valve-cfd" target="_blank">a cool multi-physics simulation video of a heart valve</Link>, which is carried out using the finite element framework of StarCCM+.</p>
           <p>
           Some of my contributions were redesigning the p-FEM architecture for improved reusabilty, maintenance and performance, improving accuracy and usability of higher-order post-processing, CPU performance benchmarking of the dense linear algebra backend, designing a modular and performant backend for composable material models. I've also contributed to the development of stabilization and coupling methods for fluid-structure interaction simulations.</p>
           <p>
